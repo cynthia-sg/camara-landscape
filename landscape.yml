@@ -46,8 +46,6 @@ landscape:
               - Solution Provider / API Exposure Platform Solution Providers
               - Solution Provider / Network Capability Solution Providers
               - Solution Provider / Transformation Function Solution Providers
-            organization:
-              name: Ericsson AB
           - item:
             name: Nokia Corporation
             homepage_url: https://nokia.com/
@@ -67,18 +65,19 @@ landscape:
             homepage_url: https://orange.com/
             logo: orange_sa.svg
             description: |-
-              Orange is one of the world's leading telecommunications operators. The Group aims to be the trusted partner for everyday digital life by providing individuals, businesses and communities with reliable connectivity and innovative services. As of the end of 2025, Orange connects 340 million customers (including MasOrange) across 26 countries and generated 40.4 billion euros in revenues.
-              As a trusted player, Orange leverages the excellence of its very high-speed broadband networks to deploy digital infrastructure in Europe, Africa and the Middle East. The Group is a European leader in fiber, with 100 million connectable households, and convergent offers. In France, Orange connects 34 million customers and was ranked No. 1 by the regulator Arcep for the quality of its mobile network for the 15th consecutive year. In Africa and the Middle East, the Group's growth engine, Orange serves nearly 180 million customers and promotes digital and financial inclusion through its connected solutions.
+              Orange is one of the world’s leading telecommunications operators. The Group aims to be the trusted partner for everyday digital life by providing individuals, businesses and communities with reliable connectivity and innovative services. As of the end of 2025, Orange connects 340 million customers (including MasOrange) across 26 countries and generated 40.4 billion euros in revenues.
+              As a trusted player, Orange leverages the excellence of its very high-speed broadband networks to deploy digital infrastructure in Europe, Africa and the Middle East. The Group is a European leader in fiber, with 100 million connectable households, and convergent offers. In France, Orange connects 34 million customers and was ranked No. 1 by the regulator Arcep for the quality of its mobile network for the 15th consecutive year. In Africa and the Middle East, the Group’s growth engine, Orange serves nearly 180 million customers and promotes digital and financial inclusion through its connected solutions.
               Under the Orange Business brand, the Group supports companies in transforming their networks as well as in AI, trusted cloud and cybersecurity. Orange is also a major player in the wholesale market, where it has a leading global telecom infrastructure and significant capabilities for deploying and operating submarine cables. A committed innovator, Orange relies on 700 researchers and holds a portfolio of 11,000 patents.
             second_path:
               - Operation / Operators
             crunchbase: https://www.crunchbase.com/organization/orange
             twitter: https://twitter.com/orange
             extra:
+              annotations:
+                contact: sales.livenet@orange.com
+                demo_url: https://docs.developer.orange.com/
+                demo_url2: https://docs.developer.orange.com/network-apis/api-catalog/playground-admin/playground/1.0/getting-started
               linkedin_url: https://www.linkedin.com/company/orange-services
-              contact: sales.livenet@orange.com
-              demo_url: https://docs.developer.orange.com/
-              demo_url2: https://docs.developer.orange.com/network-apis/api-catalog/playground-admin/playground/1.0/getting-started
           - item:
             name: Telefonica, S.A.
             homepage_url: https://telefonica.com/
@@ -116,15 +115,16 @@ landscape:
             name: Vodafone Group Plc.
             homepage_url: https://vodafone.com/
             logo: vodafone_group_plc.svg
-            description: Vodafone Group Plc is a leading British multinational telecommunications company providing mobile, fixed-line, satellite, and IoT services to over 330 million customers across Europe and Africa. Headquartered in Newbury, UK, it specialises in 5G, consumer, and business solutions, alongside M-PESA financial services.
+            description: Vodafone Group Plc is a leading British multinational telecommunications company providing mobile, fixed-line, satellite, and IoT services to over 330 million customers across Europe and Africa. Headquartered in Newbury, UK, it specializes in 5G, consumer, and business solutions, alongside M-PESA financial services.
             second_path:
               - Operation / Operators
             crunchbase: https://www.crunchbase.com/organization/vodafone
             twitter: https://twitter.com/VodafoneGroup
             extra:
+              annotations:
+                contact: networkapi@vodafone.com
+                demo_url: https://developer.vodafone.com/
               linkedin_url: https://www.linkedin.com/company/vodafone
-              contact: networkapi@vodafone.com
-              demo_url: https://developer.vodafone.com/
       - subcategory:
         name: General
         items:
@@ -134,8 +134,6 @@ landscape:
             logo: aduna_global_llc.svg
             second_path:
               - Operation / Hyperscalers, CPaaS Providers, Aggregators
-            organization:
-              name: Aduna Global LLC
           - item:
             name: Cable Television Laboratories Inc.
             homepage_url: https://cablelabs.com/
@@ -157,17 +155,25 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/time-warner-cable
             twitter: https://twitter.com/GetSpectrum
             extra:
+              annotations:
+                contact: bryteiqsupport@charter.com
+                demo_url: https://www.bryteiq.com
               linkedin_url: https://www.linkedin.com/company/spectrum
-              contact: bryteiqsupport@charter.com
-              demo_url: https://www.bryteiq.com
+          - item:
+            name: HAYO TELECOM
+            homepage_url: https://hayo.net/
+            logo: hayo_telecom.svg
+            description: |-
+              Hayo is a global digital service provider that combines networking, 
+                technologies and digital solutions to deliver on-the-ground innovation. IoT 
+                & AI, Voice & Messaging, CPaaS & CCaaS, Security, National Mobile 
+                Registries and Digital Convergenc...
           - item:
             name: KYXSTART
             homepage_url: https://kyxstart.com/
             logo: kyxstart.svg
             second_path:
               - Operation / API Customers
-            organization:
-              name: KYXSTART
           - item:
             name: Nearby Computing
             homepage_url: https://nearbycomputing.com/
@@ -175,8 +181,6 @@ landscape:
             description: 'Nearby Computing: Revolutionizing network management with cutting-edge automation for Telcos & Enterprises.'
             second_path:
               - Operation / API Customers
-            organization:
-              name: Nearby Computing
           - item:
             name: Persona Identities, Inc.
             homepage_url: https://withpersona.com/
@@ -184,32 +188,26 @@ landscape:
             description: Persona offers online ID verification services for businesses, simplifying identity management with configurable infrastructure for KYC, AML, and fraud detection. Automate processes, fight fraud, and build trust globally with Persona's secure solutions.
             second_path:
               - Operation / API Customers
-            organization:
-              name: Persona Identities, Inc.
           - item:
             name: Sent, Inc.
             homepage_url: https://sent.dm/
             logo: sent_inc.svg
             second_path:
               - Operation / Hyperscalers, CPaaS Providers, Aggregators
-            organization:
-              name: Sent, Inc.
           - item:
             name: Shabodi
             homepage_url: https://shabodi.com/
             logo: shabodi.svg
-            description: Shabodi's NetAware platform accelerates the commercialization of GSMA Open Gateway/CAMARA APIs by providing technology to operators and aggregators. By exposing real-time network intelligence (including Number Verification, SIM/Device status, Location, and Quality of Service, among other APIs) NetAware bridges telecom infrastructure with digital innovation.
+            description: Shabodi is a company that empowers enterprises, system integrators, and telcos to build high-performance enterprise applications on advanced networks.
             second_path:
               - Operation / Hyperscalers, CPaaS Providers, Aggregators
               - Solution Provider / API Exposure Platform Solution Providers
             extra:
+              annotations:
+                contact: info@shabodi.com
+                demo_url: https://www.youtube.com/watch?v=eh8us2AChrw
+                demo_url2: https://www.youtube.com/watch?v=YCj7Vo5RDek
               linkedin_url: https://www.linkedin.com/company/shabodi
-              contact: info@shabodi.com
-              demo_url: https://www.youtube.com/watch?v=eh8us2AChrw
-              demo_url2: https://www.youtube.com/watch?v=YCj7Vo5RDek
-            organization:
-              name: Shabodi
-              linkedin: https://www.linkedin.com/company/shabodi
       - subcategory:
         name: Associate
         items:
@@ -234,9 +232,6 @@ landscape:
             twitter: https://twitter.com/OMASpecWorks
             extra:
               linkedin_url: https://www.linkedin.com/company/open-mobile-alliance
-            organization:
-              name: Open Mobile Alliance (OMA)
-              linkedin: https://www.linkedin.com/company/open-mobile-alliance
           - item:
             name: TNO, the Netherlands Organisation for Applied Scientific Research
             homepage_url: https://tno.nl/
@@ -255,8 +250,6 @@ landscape:
             description: The Federal University of Rio Grande do Norte (UFRN) is a prestigious public Brazilian university located in Natal, Brazil. Established in 1960, UFRN offers a wide range of undergraduate and graduate programs across 60 departments. Known for its resear...
             second_path:
               - Planning / Research Partners
-            organization:
-              name: UFRN
           - item:
             name: University of California, Berkeley
             homepage_url: https://berkeley.edu/
@@ -1296,7 +1289,7 @@ landscape:
             second_path:
               - Integration / System Integrators
             extra:
-             contact: info@startelelogic.com
+              contact: info@startelelogic.com
           - item:
             name: Stechs
             homepage_url: https://www.stechs.io/
